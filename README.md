@@ -248,16 +248,6 @@ kelompok1-internship-finder/
 Format commit message yang digunakan:
 
 ```
-<type>(<scope>): <description> - <nama anggota>
-
-type: feat, fix, docs, chore, refactor, style
-scope: auth, home, profile, main
-description: penjelasan singkat perubahan
-nama anggota: Hidayat, Arsyad, Dzikra, atau Team
-```
-
-**Contoh:**
-```
 feat(auth): add splash screen with auto navigation - Hidayat
 fix(home): repair card layout on small screens - Arsyad
 docs: update README with installation guide - Team
@@ -267,7 +257,6 @@ docs: update README with installation guide - Team
 
 ## Known Issues
 
-- CORS policy error saat load gambar eksternal di web browser (solved: testing di mobile)
 - Belum ada integrasi dengan backend (menggunakan dummy data)
 - Fitur Ubah Password belum diimplementasikan (placeholder)
 - Fitur Upload Foto belum diimplementasikan (placeholder)
