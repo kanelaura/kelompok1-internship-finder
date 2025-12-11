@@ -94,7 +94,7 @@ Password: 123456
 ```
 lib/
 ├── main.dart              # File gabungan (semua module)
-├── hidayat_auth.dart      # Module Authentication
+├── hidayat-auth.dart      # Module Authentication
 ├── arsyad-home.dart       # Module Home & Internship
 └── dzikra-profile.dart    # Module Profile & Application
 
