@@ -2,7 +2,7 @@
 
 **Kelompok:** 1  
 **Assessment:** Assessment 2 - Layout, Widget & Navigasi  
-**Status:**  Akan presentasi (11 Des 2025)  
+**Status:**  Proses & Akan presentasi (11 Des 2025)  
 **Tanggal Laporan:** 11 Desember 2025
 
 ---
@@ -140,7 +140,7 @@
 |------|-------|-----------|--------|
 | 28 Nov - 4 Des 2025 | Setup | Project setup, pembagian tugas, dokumentasi | Completed |
 | 5 Des - 10 Des 2025 | Development | Coding, testing, screenshots | Completed |
-| 11 Des 2025 | Presentation | Presentasi Assessment 2 | Proses |
+| 11 Des 2025 | Presentation | Presentasi Assessment 2 | Akan presentasi |
 
 **Total Duration:** 14 hari
 
@@ -168,7 +168,7 @@
 | Minimal 1 alert per anggota |  13 alerts total |
 | Widget & Layout yang tepat |  20+ widgets |
 | Navigasi |  4 types |
-| Dokumentasi | Complete |
+| Dokumentasi |  Complete |
 | Screenshot |  11 screens |
 
 **Conclusion:** Semua requirement Assessment 2 terpenuhi.
