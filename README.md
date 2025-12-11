@@ -1,106 +1,58 @@
-# Kelompok 1 Internship Finder - Mobile App
+# Internship Finder - Mobile App
 
 Aplikasi mobile untuk mencari dan melamar lowongan magang dengan mudah dan cepat.
 
-**Tugas Besar:** Dasar Pemrograman Perangkat Bergerak (DPPB)  
+**Mata Kuliah:** Dasar Pemrograman Perangkat Bergerak (DPPB)  
 **Universitas:** Telkom University  
-**Semester:** 3
+**Semester:** 3 / Tahun Akademik 2024/2025  
+**Assessment:** Assessment 2 - Layout, Widget & Navigasi
 
 ---
 
-## Team Members
+## Team Members - Kelompok 1
 
-| Nama | NIM | Role | File |
-|------|-----|------|------|
-| **Hidayat Nurwahid** | 607012400045 | Authentication & Splash | [`lib/hidayat_auth.dart`](lib/hidayat_auth.dart) |
-| **Arsyad Defira Maulana** | 607012400094 | Home & Internship Management | [`lib/arsyad-home.dart`](lib/arsyad-home.dart) |
-| **M Dzikra Hafidz Fauzan** | 607012400050 | Profile & Application Management | [`lib/dzikra-profile.dart`](lib/dzikra-profile.dart) |
-
----
-
-## Features Overview
-
-### Module 1: Authentication & Splash (Hidayat Nurwahid)
-
-**Screens:**
-- Splash Screen - Tampilan awal dengan logo dan auto navigation (3 detik)
-- Login Screen - Form autentikasi dengan email dan password
-- Register Screen - Pendaftaran akun baru dengan validasi lengkap
-
-**Alerts:**
-- Login error dialog
-- Forgot password dialog
-- Register validation error dialog
-- Register success dialog
-
-**Navigation:**
-- Navigator.pushReplacement (Splash to Login, Login to Main)
-- Navigator.push (Login to Register)
-- Navigator.pop (Close dialogs, Register to Login)
+| Nama | NIM | Kontribusi |
+|------|-----|------------|
+| **Hidayat Nurwahid** | 607012400045 | Authentication & Splash (3 screens, 4 alerts) |
+| **Arsyad Defira Maulana** | 607012400094 | Home & Internship (4 screens, 4 alerts) |
+| **M Dzikra Hafidz Fauzan** | 607012400050 | Profile & Application (4 screens, 5 alerts) |
 
 ---
 
-### Module 2: Home & Internship Management (Arsyad Defira Maulana)
+## Features
 
-**Screens:**
-- Main Screen - Bottom Navigation Bar dengan 4 tabs
-- Home Screen - List lowongan magang dengan Card layout
-- Search Screen - Pencarian lowongan dengan TextField
-- Internship Detail Screen - Informasi lengkap lowongan
+### Authentication Module (Hidayat Nurwahid)
+- **Splash Screen** - Auto navigation setelah 3 detik
+- **Login Screen** - Form email & password dengan validasi
+- **Register Screen** - Pendaftaran akun baru dengan validasi lengkap
+- **Alerts:** Login error, Forgot password, Register validation, Success dialog
 
-**Features:**
-- Bottom Navigation (Home, Saved, Applications, Profile)
-- List lowongan dengan dummy data
-- Search functionality dengan empty state
-- Filter Bottom Sheet (Lokasi dan Tipe Pekerjaan)
-- Bookmark functionality dengan SnackBar feedback
-- Notification dialog
+### Home & Internship Module (Arsyad Defira Maulana)
+- **Main Screen** - Bottom Navigation Bar (4 tabs)
+- **Home Screen** - List lowongan magang dengan Card layout
+- **Search Screen** - Pencarian lowongan dengan filter
+- **Detail Screen** - Informasi lengkap lowongan
+- **Alerts:** Notification dialog, Filter bottom sheet, Bookmark & Filter snackbars
 
-**Navigation:**
-- Bottom Navigation tab switching (setState)
-- Navigator.push (Home to Search, Home to Detail)
-- Navigator.pop (Back from Search/Detail)
-
----
-
-### Module 3: Profile & Application Management (M Dzikra Hafidz Fauzan)
-
-**Screens:**
-- Application Form Screen - Form lamaran dengan validasi
-- Applications History Screen - Riwayat lamaran dengan status badge
-- Profile Screen - Info user dengan menu navigasi
-- Edit Profile Screen - Update data pribadi
-
-**Features:**
-- Form lamaran lengkap (Nama, Email, Phone, Education, Cover Letter)
-- Status badge color-coding (Orange: Direview, Green: Diterima, Red: Ditolak)
-- Profile menu dengan Card + ListTile
-- Edit foto profil (placeholder)
-- Logout dengan clear navigation stack
-
-**Alerts:**
-- Submit confirmation dialog
-- Application success dialog
-- Logout confirmation dialog
-- Profile update success dialog
-- Info dialogs untuk fitur yang belum tersedia
-
-**Navigation:**
-- Navigator.push (Profile to Edit, Profile to History)
-- Navigator.pop (Back from Edit/History)
-- Navigator.pushAndRemoveUntil (Logout to Login)
+### Profile & Application Module (M Dzikra Hafidz Fauzan)
+- **Application Form** - Form lamaran dengan validasi lengkap
+- **Applications History** - Riwayat lamaran dengan status badge (Direview/Diterima/Ditolak)
+- **Profile Screen** - Info user dengan menu navigasi
+- **Edit Profile** - Update data pribadi
+- **Alerts:** Submit confirmation, Success, Logout confirmation, Update success, Info dialogs
 
 ---
 
-## Project Summary
+## Assessment 2 Requirements
 
-| Metric | Count |
-|--------|-------|
-| **Total Screens** | 11 screens |
-| **Total Alerts** | 13+ dialogs, bottom sheets, snackbars |
-| **Navigation Types** | push, pop, pushReplacement, pushAndRemoveUntil, bottom nav |
-| **Lines of Code** | Approx. 1600+ lines (main.dart) |
-| **Team Members** | 3 members |
+| Requirement | Minimum | Implemented | Status |
+|-------------|---------|-------------|--------|
+| Screens per anggota | 3 | 3-4 per anggota (Total: 11) | ✅ |
+| Alert per anggota | 1 | 4-5 per anggota (Total: 13) | ✅ |
+| Widget & Layout | Required | Column, Row, Card, ListView, TextField, Button, dll | ✅ |
+| Navigasi | Required | push, pop, pushReplacement, pushAndRemoveUntil | ✅ |
+
+**Summary:** Semua requirement Assessment 2 terpenuhi dengan melebihi target minimum.
 
 ---
 
@@ -108,172 +60,90 @@ Aplikasi mobile untuk mencari dan melamar lowongan magang dengan mudah dan cepat
 
 - **Framework:** Flutter 3.0+
 - **Language:** Dart
-- **Platform:** Android & iOS (Cross-platform)
-- **State Management:** setState (basic state management)
-- **UI Components:** Material Design widgets
-- **Navigation:** Navigator (Flutter built-in)
-- **Data Management:** Dummy data with List<Map<String, dynamic>>
-- **Form Handling:** TextEditingController with validation
+- **UI:** Material Design
+- **State Management:** setState
+- **Navigation:** Navigator
+- **Data:** Dummy data (List<Map<String, dynamic>>)
 
 ---
 
-## Installation & Setup
-
-### Prerequisites
-
-Pastikan sudah terinstall:
-- Flutter SDK 3.0 atau lebih baru
-- Dart SDK 3.0 atau lebih baru
-- Android Studio / VS Code dengan Flutter plugin
-- Android Emulator / iOS Simulator / Chrome browser
-
-### Installation Steps
+## Installation
 
 ```bash
-# 1. Clone repository
+# Clone repository
 git clone https://github.com/kanelaura/kelompok1-internship-finder.git
 
-# 2. Masuk ke folder project
+# Install dependencies
 cd kelompok1-internship-finder
-
-# 3. Install dependencies
 flutter pub get
 
-# 4. Verify Flutter installation
-flutter doctor
-
-# 5. Run application
+# Run application
 flutter run
-
-# Atau run di platform spesifik:
-flutter run -d chrome          # Run di Chrome browser
-flutter run -d android         # Run di Android emulator
-flutter run -d <device_id>     # Run di device tertentu
 ```
 
-### Check Available Devices
-
-```bash
-flutter devices
-```
-
----
-
-## Testing Credentials
-
-Untuk login ke aplikasi, gunakan kredensial berikut:
-
+### Test Credentials
 ```
 Email:    user@mail.com
 Password: 123456
 ```
-
-**Note:** Ini adalah dummy credentials untuk keperluan testing aplikasi.
 
 ---
 
 ## Project Structure
 
 ```
-kelompok1-internship-finder/
-├── lib/
-│   ├── main.dart              # File gabungan lengkap (semua module terintegrasi)
-│   ├── hidayat_auth.dart      # Module Authentication (Hidayat)
-│   ├── arsyad-home.dart       # Module Home & Internship (Arsyad)
-│   └── dzikra-profile.dart    # Module Profile & Application (Dzikra)
-├── docs/                      # Dokumentasi project 
-│   ├── DOKUMENTASI_PROJECT.md
-│   ├── LAPORAN_PROGRESS.md
-│   ├── PANDUAN_GITHUB.md
-│   └── screenshots/           # Screenshot aplikasi
-├── .gitignore
-├── pubspec.yaml
-└── README.md
+lib/
+├── main.dart              # File gabungan (semua module)
+├── hidayat_auth.dart      # Module Authentication
+├── arsyad-home.dart       # Module Home & Internship
+└── dzikra-profile.dart    # Module Profile & Application
+
+docs/
+├── DOKUMENTASI_PROJECT.md
+├── LAPORAN_PROGRESS.md
+├── PANDUAN_GITHUB.md
+└── screenshots/           # 11 screenshots
 ```
-
----
-
-## Features Checklist
-
-### Assessment 2 Requirements
-
-- [x] Minimal 3 screen per anggota
-- [x] Navigasi lengkap (push, pop, pushReplacement, pushAndRemoveUntil)
-- [x] Alert/Dialog implementation (minimal 1 per anggota)
-- [x] Form validation
-- [x] Widget variety (Column, Row, Container, Card, ListView, TextField, Button, dll)
-- [x] State management dengan setState
-- [x] Commit history jelas per anggota
-- [x] Dummy data untuk testing
 
 ---
 
 ## Screenshots
 
-### Authentication Module (Hidayat Nurwahid)
+### Authentication (Hidayat Nurwahid)
 
 <table>
   <tr>
-    <td><img src="docs/screenshots/01_splash.png" width="250"/></td>
-    <td><img src="docs/screenshots/02_login.png" width="250"/></td>
-    <td><img src="docs/screenshots/03_register.png" width="250"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Splash Screen</b></td>
-    <td align="center"><b>Login Screen</b></td>
-    <td align="center"><b>Register Screen</b></td>
+    <td align="center"><img src="docs/screenshots/01_splash.png" width="200"/><br><b>Splash Screen</b></td>
+    <td align="center"><img src="docs/screenshots/02_login.png" width="200"/><br><b>Login Screen</b></td>
+    <td align="center"><img src="docs/screenshots/03_register.png" width="200"/><br><b>Register Screen</b></td>
   </tr>
 </table>
 
----
-
-### Home & Internship Module (Arsyad Defira Maulana)
+### Home & Internship (Arsyad Defira Maulana)
 
 <table>
   <tr>
-    <td><img src="docs/screenshots/04_main.png" width="250"/></td>
-    <td><img src="docs/screenshots/05_home.png" width="250"/></td>
-    <td><img src="docs/screenshots/06_search.png" width="250"/></td>
+    <td align="center"><img src="docs/screenshots/04_main.png" width="200"/><br><b>Main Screen</b></td>
+    <td align="center"><img src="docs/screenshots/05_home.png" width="200"/><br><b>Home Screen</b></td>
+    <td align="center"><img src="docs/screenshots/06_search.png" width="200"/><br><b>Search Screen</b></td>
   </tr>
   <tr>
-    <td align="center"><b>Main Screen</b></td>
-    <td align="center"><b>Home Screen</b></td>
-    <td align="center"><b>Search Screen</b></td>
-  </tr>
-  <tr>
-    <td><img src="docs/screenshots/07_detail.png" width="250"/></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Detail Screen</b></td>
+    <td align="center"><img src="docs/screenshots/07_detail.png" width="200"/><br><b>Detail Screen</b></td>
     <td></td>
     <td></td>
   </tr>
 </table>
 
----
-
-### Profile & Application Module (M Dzikra Hafidz Fauzan)
+### Profile & Application (M Dzikra Hafidz Fauzan)
 
 <table>
   <tr>
-    <td><img src="docs/screenshots/08_application_form.png" width="250"/></td>
-    <td><img src="docs/screenshots/09_application_history.png" width="250"/></td>
-    <td><img src="docs/screenshots/10_profile.png" width="250"/></td>
+    <td align="center"><img src="docs/screenshots/08_application_form.png" width="200"/><br><b>Application Form</b></td>
+    <td align="center"><img src="docs/screenshots/09_application_history.png" width="200"/><br><b>Applications History</b></td>
+    <td align="center"><img src="docs/screenshots/10_profile.png" width="200"/><br><b>Profile Screen</b></td>
   </tr>
   <tr>
-    <td align="center"><b>Application Form</b></td>
-    <td align="center"><b>Applications History</b></td>
-    <td align="center"><b>Profile Screen</b></td>
-  </tr>
-  <tr>
-    <td><img src="docs/screenshots/11_edit_profile.png" width="250"/></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Edit Profile Screen</b></td>
+    <td align="center"><img src="docs/screenshots/11_edit_profile.png" width="200"/><br><b>Edit Profile</b></td>
     <td></td>
     <td></td>
   </tr>
@@ -283,100 +153,56 @@ kelompok1-internship-finder/
 
 ## Development Timeline
 
-| Week | Activities | Status |
+| Date | Activities | Status |
 |------|-----------|--------|
-| Week 1 | Setup project, diskusi pembagian tugas, dokumentasi | Completed |
-| Week 2 | Parallel development (Auth, Home, Profile modules) | In Progress |
-| Week 3 | Integration, testing, bug fixing | Planned |
-| Week 4 | Final testing, screenshots, dokumentasi lengkap | Planned |
-| Week 5 | Review dan submission | Planned |
+| 28 Nov - 4 Des | Setup & Planning | Completed |
+| 5 Des - 10 Des | Development & Testing | Completed |
+| 11 Des | **Presentasi Assessment 2** | Progress |
 
----
-
-## Commit Guidelines
-
-Format commit message yang digunakan:
-
-```
-<type>(<scope>): <description> - <nama>
-
-Contoh:
-feat(auth): add splash screen with auto navigation - Hidayat
-fix(home): repair card layout on small screens - Arsyad
-docs: update README with installation guide - Team
-```
-
----
-
-## Known Issues
-
-- Belum ada integrasi dengan backend (menggunakan dummy data)
-- Fitur Ubah Password belum diimplementasikan (placeholder)
-- Fitur Upload Foto belum diimplementasikan (placeholder)
-
----
-
-## Future Improvements
-
-- Integrasi dengan REST API backend
-- Implementasi state management yang lebih advanced (Provider/Riverpod/Bloc)
-- Upload foto profil dan dokumen lamaran
-- Real-time notification
-- Filter dan sorting yang lebih kompleks
-- Pagination untuk list lowongan
-- Dark mode support
+**Total Duration:** 14 hari (28 Nov - 11 Des 2024)  
+**Status:** Akan melakukan presentasi Assessment 2 
 
 ---
 
 ## Documentation
 
-Dokumentasi lengkap tersedia di folder `docs/`:
-- [DOKUMENTASI_PROJECT.md](docs/DOKUMENTASI_PROJECT.md) - Dokumentasi lengkap project
-- [LAPORAN_PROGRESS.md](docs/LAPORAN_PROGRESS.md) - Laporan progress pengerjaan
+Dokumentasi lengkap tersedia di folder [`docs/`](docs/):
+- [DOKUMENTASI_PROJECT.md](docs/DOKUMENTASI_PROJECT.md) - Dokumentasi project
+- [LAPORAN_PROGRESS.md](docs/LAPORAN_PROGRESS.md) - Progress pengerjaan
 - [PANDUAN_GITHUB.md](docs/PANDUAN_GITHUB.md) - Panduan Git & GitHub
 
 ---
 
-## Contributing
+## Next Phase - Assessment 3
 
-Project ini adalah tugas akademik untuk mata kuliah Dasar Pemrograman Perangkat Bergerak. Kontribusi terbatas untuk anggota kelompok:
+**Fokus:** Alert, ListView & HTTP  
+**Planned Features:**
+- API integration
+- HTTP Methods (GET, POST, PUT/DELETE)
+- Real data dari API
+- ListView dengan data API
 
-1. **Hidayat Nurwahid** - Authentication & Splash
-2. **Arsyad Defira Maulana** - Home & Internship Management
-3. **M Dzikra Hafidz Fauzan** - Profile & Application Management
-
----
-
-## License
-
-Academic Project - Dasar Pemrograman Perangkat Bergerak  
-Telkom University © 2025
-
-Project ini dibuat untuk keperluan akademik dan pembelajaran.
+Timeline akan ditentukan setelah Assessment 2.
 
 ---
 
 ## Contact
 
-**Kelompok 1 - Internship Finder**
-
 | Anggota | Email | GitHub |
 |---------|-------|--------|
 | Hidayat Nurwahid | paslimkimochi@gmail.com | [@kanelaura](https://github.com/kanelaura) |
-| Arsyad Defira Maulana | arsyad@student.telkomuniversity.ac.id | [@arsyad](https://github.com/arsyad) |
-| M Dzikra Hafidz Fauzan | dzikra@student.telkomuniversity.ac.id | [@dzikra](https://github.com/dzikra) |
+| Arsyad Defira Maulana | inback210@gmail.com | [@acaik](https://github.com/acaik) |
+| M Dzikra Hafidz Fauzan | belum isi | [belum isi) |
 
 ---
 
-## Acknowledgments
-
-- **Dosen Pengampu:** Lukmanul Hakim Firdaus
-- **Mata Kuliah:** Dasar Pemrograman Perangkat Bergerak
-- **Institusi:** Telkom University
-- **Semester:** 3 / Tahun Akademik 2024/2025
-
----
-
+**Dosen Pengampu:** Lukmanul Hakim Firdaus  
 **Repository:** https://github.com/kanelaura/kelompok1-internship-finder  
-**Last Updated:** 11 Desember 2025  
-**Version:** 1.0.0
+**Version:** 1.0.0 (Assessment 2)  
+**Last Updated:** Desember 2024
+
+---
+
+## License
+
+Academic Project - Telkom University © 2024
