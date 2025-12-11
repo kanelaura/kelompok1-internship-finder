@@ -199,7 +199,7 @@ Timeline akan ditentukan setelah Assessment 2.
 **Dosen Pengampu:** Lukmanul Hakim Firdaus  
 **Repository:** https://github.com/kanelaura/kelompok1-internship-finder  
 **Version:** 1.0.0 (Assessment 2)  
-**Last Updated:** Desember 2024
+**Last Updated:** Desember 2025
 
 ---
 
