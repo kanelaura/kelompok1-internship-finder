@@ -2,7 +2,7 @@
 
 **Kelompok:** 1  
 **Repository:** https://github.com/kanelaura/kelompok1-internship-finder  
-**Last Updated:** 12 Desember 2025
+**Last Updated:** 11 Desember 2025
 
 ---
 
@@ -265,6 +265,6 @@ Kelompok 1 - Internship Finder
 
 ---
 
-**Assessment 2 Status:** ✅ Complete  
+**Assessment 2 Status:**  Proses akan presentasi  
 **Repository:** https://github.com/kanelaura/kelompok1-internship-finder  
-**Last Updated:** 12 Desember 2025
+**Last Updated:** 11 Desember 2025
