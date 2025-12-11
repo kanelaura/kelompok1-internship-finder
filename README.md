@@ -205,4 +205,4 @@ Timeline akan ditentukan setelah Assessment 2.
 
 ## License
 
-Academic Project - Telkom University © 2024
+Academic Project - Telkom University © 2025
