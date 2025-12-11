@@ -99,7 +99,6 @@ git push origin main
 
 ---
 
-## SHARE KE DOSEN
 
 **Template Email:**
 ```
@@ -119,6 +118,4 @@ Terima kasih.
 Kelompok 1
 ```
 
----
 
-**Good luck! 🚀**
