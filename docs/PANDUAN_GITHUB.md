@@ -104,7 +104,7 @@ git push origin main
 ```
 Subject: Repository GitHub - Tugas Besar DPPB - Kelompok 1
 
-Yth. Bapak/Ibu [Lukmanul Hakim Firdaus],
+Yth. Bapak [Lukmanul Hakim Firdaus],
 
 Berikut link repository GitHub:
 https://github.com/kanelaura/kelompok1-internship-finder
