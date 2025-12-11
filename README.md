@@ -210,7 +210,70 @@ kelompok1-internship-finder/
 
 ## Screenshots
 
-**Note:** Screenshots akan ditambahkan setelah development selesai.
+### Authentication Module (Hidayat)
+
+<table>
+  <tr>
+    <td><img src="docs/screenshots/01_splash.png" width="250"/></td>
+    <td><img src="docs/screenshots/02_login.png" width="250"/></td>
+    <td><img src="docs/screenshots/03_register.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center">Splash Screen</td>
+    <td align="center">Login Screen</td>
+    <td align="center">Register Screen</td>
+  </tr>
+</table>
+
+### Home & Internship Module (Arsyad)
+
+<table>
+  <tr>
+    <td><img src="docs/screenshots/04_main.png" width="250"/></td>
+    <td><img src="docs/screenshots/05_home.png" width="250"/></td>
+    <td><img src="docs/screenshots/06_search.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center">Main Screen</td>
+    <td align="center">Home Screen</td>
+    <td align="center">Search Screen</td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/07_detail.png" width="250"/></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center">Detail Screen</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+### Profile & Application Module (Dzikra)
+
+<table>
+  <tr>
+    <td><img src="docs/screenshots/08_application_form.png" width="250"/></td>
+    <td><img src="docs/screenshots/09_applications_history.png" width="250"/></td>
+    <td><img src="docs/screenshots/10_profile.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center">Application Form</td>
+    <td align="center">Applications History</td>
+    <td align="center">Profile Screen</td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/11_edit_profile.png" width="250"/></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center">Edit Profile Screen</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ### Authentication Module
 - Splash Screen
