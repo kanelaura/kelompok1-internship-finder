@@ -1,85 +1,195 @@
 # LAPORAN PROGRESS INTERNSHIP FINDER - DPPB
-**Tanggal:** 11 Desember 2025
+
+**Kelompok:** 1  
+**Assessment:** Assessment 2 - Layout, Widget & Navigasi  
+**Status:**  Akan presentasi (11 Des 2025)  
+**Tanggal Laporan:** 11 Desember 2025
 
 ---
 
-## 1. ANGGOTA 1 - AUTHENTICATION & SPLASH
+## RINGKASAN PROGRESS
 
-| **Role** | **AUTHENTICATION & SPLASH** |
-| :---- | :---- |
-| **PIC** | Hidayat Nurwahid (607012400045) |
-| **Penjelasan Singkat** | Bertanggung jawab atas sistem autentikasi aplikasi. Akan membuat Splash Screen, Login Screen, dan Register Screen sebagai gerbang utama aplikasi. |
-| **Target Assessment 2** | 3 halaman utama (Splash, Login, Register) dengan 4 jenis dialog (Login Error, Forgot Password, Register Validation, Register Success). Semua dilengkapi validasi form dan navigasi. |
-| **Screenshot** | *[Akan diisi setelah development]*<br><br>**Halaman:**<br>1. Splash Screen<br>2. Login Screen<br>3. Register Screen<br><br>**Alert:**<br>- Error Dialog (Login gagal)<br>- Info Dialog (Lupa password)<br>- Validation Dialog (Register)<br>- Success Dialog (Register berhasil) |
-| **Teknologi** | Flutter Widgets: TextField, Column, Row<br>State: setState, TextEditingController<br>Navigasi: push, pop, pushReplacement<br>Alert: showDialog, AlertDialog<br>Test: user@mail.com / 123456 |
-| **Status** | Belum Dimulai |
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|
+| **Total Screens** | 9+ | 11 | Completed |
+| **Total Alerts** | 3+ | 13 | Completed |
+| **Development** | 100% | 100% | Completed |
+| **Testing** | 100% | 100% | Completed |
+| **Documentation** | 100% | 100% | Completed |
+| **Screenshots** | 11 | 11 | Completed |
 
----
-
-## 2. ANGGOTA 2 - HOME & INTERNSHIP MANAGEMENT
-
-| **Role** | **HOME & INTERNSHIP MANAGEMENT** |
-| :---- | :---- |
-| **PIC** | Arsyad Defira Maulana (607012400094) |
-| **Penjelasan Singkat** | Bertanggung jawab atas halaman utama aplikasi. Akan membuat Main Screen dengan Bottom Navigation, Home Screen dengan list lowongan, Search Screen, dan Detail Screen. |
-| **Target Assessment 2** | 4 halaman utama (Main, Home, Search, Detail) dengan fitur filter Bottom Sheet. Data lowongan menggunakan dummy data dalam List<Map>. |
-| **Screenshot** | *[Akan diisi setelah development]*<br><br>**Halaman:**<br>1. Main Screen (Bottom Nav)<br>2. Home Screen (List)<br>3. Search Screen<br>4. Detail Screen<br><br>**Fitur:**<br>- Bottom Navigation<br>- List lowongan<br>- Search & Filter<br>- Bookmark<br>- Notification |
-| **Teknologi** | BottomNavigationBar, ListView, Card<br>GestureDetector<br>showModalBottomSheet, SnackBar<br>DropdownButtonFormField<br>Dummy data: List<Map<String, dynamic>> |
-| **Status** | Belum Dimulai |
+**Overall Progress:** 100% - Assessment 2 Complete
 
 ---
 
-## 3. ANGGOTA 3 - PROFILE & APPLICATION MANAGEMENT
+## PROGRESS PER ANGGOTA
 
-| **Role** | **PROFILE & APPLICATION MANAGEMENT** |
-| :---- | :---- |
-| **PIC** | M Dzikra Hafidz Fauzan (607012400050) |
-| **Penjelasan Singkat** | Bertanggung jawab atas manajemen profil dan aplikasi lamaran. Akan membuat Application Form, Applications History, Profile Screen, dan Edit Profile. |
-| **Target Assessment 2** | 4 halaman utama (Form, History, Profile, Edit) dengan 5 jenis dialog untuk konfirmasi dan feedback. Status badge color-coded. |
-| **Screenshot** | *[Akan diisi setelah development]*<br><br>**Halaman:**<br>1. Application Form<br>2. Applications History<br>3. Profile Screen<br>4. Edit Profile<br><br>**Fitur:**<br>- Form validasi<br>- Status badge<br>- Menu profile<br>- Logout |
-| **Teknologi** | TextField, ListView.builder<br>Stack, Positioned<br>TextEditingController<br>pushAndRemoveUntil<br>showDialog (5 types)<br>Dummy data: List<Map> |
-| **Status** | Belum Dimulai |
+### ANGGOTA 1 - HIDAYAT NURWAHID
+
+| Item | Detail |
+|------|--------|
+| **NIM** | 607012400045 |
+| **Role** | Authentication & Splash |
+| **Kontribusi** | 3 screens, 4 alerts |
+| **File** | `lib/hidayat-auth.dart` |
+| **Status** |  Complete |
+
+**Screens:**
+1. Splash Screen - Auto navigation (3 detik)
+2. Login Screen - Form dengan validasi
+3. Register Screen - Form registrasi lengkap
+
+**Alerts:**
+1. Login error dialog
+2. Forgot password dialog
+3. Register validation dialog
+4. Register success dialog
+
+**Teknologi:**
+- Widgets: TextField, Column, Row, AlertDialog
+- Navigation: pushReplacement, push, pop
+- State: setState, TextEditingController
 
 ---
 
-## RINGKASAN PROGRESS KELOMPOK
+### ANGGOTA 2 - ARSYAD DEFIRA MAULANA
 
-| Anggota | Role | Screens | Alerts | Status |
-|---------|------|---------|--------|--------|
-| Anggota 1 | Auth & Splash | 3 | 4 | 0% |
-| Anggota 2 | Home & Internship | 4 | 4 | 0% |
-| Anggota 3 | Profile & Apps | 4 | 5 | 0% |
-| **TOTAL** | **Complete App** | **11** | **13** | **0%** |
+| Item | Detail |
+|------|--------|
+| **NIM** | 607012400094 |
+| **Role** | Home & Internship Management |
+| **Kontribusi** | 4 screens, 4 alerts |
+| **File** | `lib/arsyad-home.dart` |
+| **Status** |  Complete |
+
+**Screens:**
+1. Main Screen - Bottom Navigation (4 tabs)
+2. Home Screen - List lowongan
+3. Search Screen - Pencarian dengan filter
+4. Detail Screen - Info lengkap lowongan
+
+**Alerts:**
+1. Notification dialog
+2. Filter Bottom Sheet
+3. Bookmark SnackBar
+4. Filter applied SnackBar
+
+**Teknologi:**
+- Widgets: BottomNavigationBar, ListView.builder, Card
+- Widgets: ModalBottomSheet, DropdownButtonFormField
+- Navigation: Bottom nav, push, pop
+- Data: List<Map<String, dynamic>>
 
 ---
 
-## TARGET ASSESSMENT 2
+### ANGGOTA 3 - M DZIKRA HAFIDZ FAUZAN
 
-### Deliverables:
-- [ ] Source code (main.dart)
-- [ ] Screenshots (11 screens)
-- [ ] Dokumentasi lengkap
-- [ ] APK file
-- [ ] Video demo (opsional)
+| Item | Detail |
+|------|--------|
+| **NIM** | 607012400050 |
+| **Role** | Profile & Application Management |
+| **Kontribusi** | 4 screens, 5 alerts |
+| **File** | `lib/dzikra-profile.dart` |
+| **Status** |  Complete |
 
-### Kriteria per Anggota:
-- [ ] Minimal 3 screen
-- [ ] Navigasi berfungsi
-- [ ] Minimal 1 alert
-- [ ] Code rapi
+**Screens:**
+1. Application Form - Form lamaran
+2. Applications History - Riwayat dengan status
+3. Profile Screen - Info user
+4. Edit Profile - Update data
+
+**Alerts:**
+1. Submit confirmation dialog
+2. Application success dialog
+3. Logout confirmation dialog
+4. Profile update success dialog
+5. Info dialogs
+
+**Teknologi:**
+- Widgets: Form, TextFormField, ListView.builder
+- Widgets: Stack, Positioned, CircleAvatar
+- Navigation: push, pop, pushAndRemoveUntil
+- Features: Form validation, Status badge
+
+---
+
+## SCREENSHOTS
+
+### Authentication Module
+![01_splash](screenshots/01_splash.png)
+![02_login](screenshots/02_login.png)
+![03_register](screenshots/03_register.png)
+
+### Home & Internship Module
+![04_main](screenshots/04_main.png)
+![05_home](screenshots/05_home.png)
+![06_search](screenshots/06_search.png)
+![07_detail](screenshots/07_detail.png)
+
+### Profile & Application Module
+![08_application_form](screenshots/08_application_form.png)
+![09_application_history](screenshots/09_application_history.png)
+![10_profile](screenshots/10_profile.png)
+![11_edit_profile](screenshots/11_edit_profile.png)
 
 ---
 
 ## TIMELINE DEVELOPMENT
 
-| Fase | Periode | Aktivitas | Status |
-|------|---------|-----------|--------|
-| Setup | Minggu 1 | Setup project, diskusi | Belum |
-| Development | Minggu 2-3 | Parallel development | Belum |
-| Integration | Minggu 4 | Merge & testing | Belum |
-| Finalization | Minggu 5 | Screenshot & docs | Belum |
+| Date | Phase | Activities | Status |
+|------|-------|-----------|--------|
+| 28 Nov - 4 Des 2025 | Setup | Project setup, pembagian tugas, dokumentasi | Completed |
+| 5 Des - 10 Des 2025 | Development | Coding, testing, screenshots | Completed |
+| 11 Des 2025 | Presentation | Presentasi Assessment 2 | Proses |
+
+**Total Duration:** 14 hari
+
+---
+
+## TEKNOLOGI YANG DIGUNAKAN
+
+| Kategori | Detail |
+|----------|--------|
+| **Framework** | Flutter 3.0+ |
+| **Language** | Dart |
+| **Platform** | Android & iOS |
+| **State Management** | setState |
+| **UI** | Material Design |
+| **Navigation** | Navigator |
+| **Data** | Dummy data |
+
+---
+
+## ASSESSMENT 2 COMPLIANCE
+
+| Requirement | Status |
+|-------------|--------|
+| Minimal 3 screen per anggota |  11 screens total |
+| Minimal 1 alert per anggota |  13 alerts total |
+| Widget & Layout yang tepat |  20+ widgets |
+| Navigasi |  4 types |
+| Dokumentasi | Complete |
+| Screenshot |  11 screens |
+
+**Conclusion:** Semua requirement Assessment 2 terpenuhi.
+
+---
+
+## NEXT STEPS - ASSESSMENT 3
+
+**Fokus:** Alert, ListView & HTTP
+
+**Planned Additions:**
+- [ ] API integration
+- [ ] HTTP Methods (GET, POST, PUT/DELETE)
+- [ ] Real data dari API
+- [ ] ListView dengan data API
+
+**Timeline:** TBA
 
 ---
 
 **Repository:** https://github.com/kanelaura/kelompok1-internship-finder  
+**Assessment 2 Status:**  Proses & Akan presentasi  
+**Dosen Pengampu:** Lukmanul Hakim Firdaus  
 **Last Updated:** 11 Desember 2025
