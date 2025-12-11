@@ -255,7 +255,7 @@ kelompok1-internship-finder/
 <table>
   <tr>
     <td><img src="docs/screenshots/08_application_form.png" width="250"/></td>
-    <td><img src="docs/screenshots/09_applications_history.png" width="250"/></td>
+    <td><img src="docs/screenshots/09_application_history.png" width="250"/></td>
     <td><img src="docs/screenshots/10_profile.png" width="250"/></td>
   </tr>
   <tr>
