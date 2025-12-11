@@ -1,6 +1,5 @@
 # Kelompok 1 Internship Finder - Mobile App
 
-
 Aplikasi mobile untuk mencari dan melamar lowongan magang dengan mudah dan cepat.
 
 **Tugas Besar:** Dasar Pemrograman Perangkat Bergerak (DPPB)  
@@ -185,6 +184,7 @@ kelompok1-internship-finder/
 ├── docs/                      # Dokumentasi project 
 │   ├── DOKUMENTASI_PROJECT.md
 │   ├── LAPORAN_PROGRESS.md
+│   ├── PANDUAN_GITHUB.md
 │   └── screenshots/           # Screenshot aplikasi
 ├── .gitignore
 ├── pubspec.yaml
@@ -210,7 +210,7 @@ kelompok1-internship-finder/
 
 ## Screenshots
 
-### Authentication Module (Hidayat)
+### Authentication Module (Hidayat Nurwahid)
 
 <table>
   <tr>
@@ -219,13 +219,15 @@ kelompok1-internship-finder/
     <td><img src="docs/screenshots/03_register.png" width="250"/></td>
   </tr>
   <tr>
-    <td align="center">Splash Screen</td>
-    <td align="center">Login Screen</td>
-    <td align="center">Register Screen</td>
+    <td align="center"><b>Splash Screen</b></td>
+    <td align="center"><b>Login Screen</b></td>
+    <td align="center"><b>Register Screen</b></td>
   </tr>
 </table>
 
-### Home & Internship Module (Arsyad)
+---
+
+### Home & Internship Module (Arsyad Defira Maulana)
 
 <table>
   <tr>
@@ -234,9 +236,9 @@ kelompok1-internship-finder/
     <td><img src="docs/screenshots/06_search.png" width="250"/></td>
   </tr>
   <tr>
-    <td align="center">Main Screen</td>
-    <td align="center">Home Screen</td>
-    <td align="center">Search Screen</td>
+    <td align="center"><b>Main Screen</b></td>
+    <td align="center"><b>Home Screen</b></td>
+    <td align="center"><b>Search Screen</b></td>
   </tr>
   <tr>
     <td><img src="docs/screenshots/07_detail.png" width="250"/></td>
@@ -244,13 +246,15 @@ kelompok1-internship-finder/
     <td></td>
   </tr>
   <tr>
-    <td align="center">Detail Screen</td>
+    <td align="center"><b>Detail Screen</b></td>
     <td></td>
     <td></td>
   </tr>
 </table>
 
-### Profile & Application Module (Dzikra)
+---
+
+### Profile & Application Module (M Dzikra Hafidz Fauzan)
 
 <table>
   <tr>
@@ -259,9 +263,9 @@ kelompok1-internship-finder/
     <td><img src="docs/screenshots/10_profile.png" width="250"/></td>
   </tr>
   <tr>
-    <td align="center">Application Form</td>
-    <td align="center">Applications History</td>
-    <td align="center">Profile Screen</td>
+    <td align="center"><b>Application Form</b></td>
+    <td align="center"><b>Applications History</b></td>
+    <td align="center"><b>Profile Screen</b></td>
   </tr>
   <tr>
     <td><img src="docs/screenshots/11_edit_profile.png" width="250"/></td>
@@ -269,28 +273,11 @@ kelompok1-internship-finder/
     <td></td>
   </tr>
   <tr>
-    <td align="center">Edit Profile Screen</td>
+    <td align="center"><b>Edit Profile Screen</b></td>
     <td></td>
     <td></td>
   </tr>
 </table>
-
-### Authentication Module
-- Splash Screen
-- Login Screen
-- Register Screen
-
-### Home & Internship Module
-- Main Screen (Bottom Navigation)
-- Home Screen (List Lowongan)
-- Search Screen
-- Internship Detail Screen
-
-### Profile & Application Module
-- Application Form Screen
-- Applications History Screen
-- Profile Screen
-- Edit Profile Screen
 
 ---
 
@@ -311,6 +298,9 @@ kelompok1-internship-finder/
 Format commit message yang digunakan:
 
 ```
+<type>(<scope>): <description> - <nama>
+
+Contoh:
 feat(auth): add splash screen with auto navigation - Hidayat
 fix(home): repair card layout on small screens - Arsyad
 docs: update README with installation guide - Team
@@ -372,19 +362,21 @@ Project ini dibuat untuk keperluan akademik dan pembelajaran.
 
 | Anggota | Email | GitHub |
 |---------|-------|--------|
-| Hidayat Nurwahid | [paslimkimochi@gmail.com] | [@kanelaura] |
-| Arsyad Defira Maulana | [email] | [@username] |
-| M Dzikra Hafidz Fauzan | [email] | [@username] |
-
-**Repository:** https://github.com/kanelaura/kelompok1-internship-finder  
-**Last Updated:** 11 Desember 2025  
-**Version:** 1.0.0
+| Hidayat Nurwahid | paslimkimochi@gmail.com | [@kanelaura](https://github.com/kanelaura) |
+| Arsyad Defira Maulana | arsyad@student.telkomuniversity.ac.id | [@arsyad](https://github.com/arsyad) |
+| M Dzikra Hafidz Fauzan | dzikra@student.telkomuniversity.ac.id | [@dzikra](https://github.com/dzikra) |
 
 ---
 
 ## Acknowledgments
 
-- Dosen Pengampu: [Lukmanul Hakim Firdaus]
-- Mata Kuliah: Dasar Pemrograman Perangkat Bergerak
-- Institusi: Telkom University
-- Semester: 3 / Tahun Akademik 2025/2026
+- **Dosen Pengampu:** Lukmanul Hakim Firdaus
+- **Mata Kuliah:** Dasar Pemrograman Perangkat Bergerak
+- **Institusi:** Telkom University
+- **Semester:** 3 / Tahun Akademik 2024/2025
+
+---
+
+**Repository:** https://github.com/kanelaura/kelompok1-internship-finder  
+**Last Updated:** 11 Desember 2025  
+**Version:** 1.0.0
