@@ -182,7 +182,7 @@ kelompok1-internship-finder/
 │   ├── hidayat_auth.dart      # Module Authentication (Hidayat)
 │   ├── arsyad-home.dart       # Module Home & Internship (Arsyad)
 │   └── dzikra-profile.dart    # Module Profile & Application (Dzikra)
-├── docs/                      # Dokumentasi project (akan ditambahkan)
+├── docs/                      # Dokumentasi project 
 │   ├── DOKUMENTASI_PROJECT.md
 │   ├── LAPORAN_PROGRESS.md
 │   └── screenshots/           # Screenshot aplikasi
