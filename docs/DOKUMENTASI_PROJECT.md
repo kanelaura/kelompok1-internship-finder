@@ -116,10 +116,10 @@
 
 | Requirement | Minimum | Actual | Status |
 |-------------|---------|--------|--------|
-| Screens per anggota | 3 | 3-4 | ✅ Exceeded |
-| Alert per anggota | 1 | 4-5 | ✅ Exceeded |
-| Widget & Layout | Required | 20+ widgets | ✅ Complete |
-| Navigasi | Required | 4 types | ✅ Complete |
+| Screens per anggota | 3 | 3-4 |  Exceeded |
+| Alert per anggota | 1 | 4-5 |  Exceeded |
+| Widget & Layout | Required | 20+ widgets |  Complete |
+| Navigasi | Required | 4 types |  Complete |
 
 **Kesimpulan:** Semua requirement terpenuhi dengan melebihi target minimum.
 
