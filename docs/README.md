@@ -7,24 +7,20 @@ Folder ini berisi dokumentasi lengkap untuk project Internship Finder.
 ### 1. DOKUMENTASI_PROJECT.md
 Dokumentasi lengkap project yang berisi:
 - Deskripsi aplikasi
-- Fitur-fitur aplikasi
-- Referensi aplikasi sejenis
-- Pembagian tugas kelompok (detail per anggota)
-- Kriteria penilaian
-- Catatan teknis
-- Timeline pengerjaan
-- Deliverables Assessment 2
+- Fitur-fitur aplikasi per anggota
+- Pembagian tugas kelompok (detail)
+- Requirement Assessment 2
+- Teknologi yang digunakan
+- Deliverables
 
 ### 2. LAPORAN_PROGRESS.md
 Laporan progress pengerjaan yang berisi:
-- Progress per anggota dengan PIC
-- Target Assessment 2
-- Screenshot (placeholder)
+- Progress per anggota dengan detail kontribusi
+- Target Assessment 2 (sudah tercapai)
+- Screenshot aplikasi
 - Teknologi yang digunakan
-- Status pengerjaan
-- Ringkasan progress kelompok
+- Status pengerjaan (completed)
 - Timeline development
-- Next steps
 
 ### 3. PANDUAN_GITHUB.md
 Panduan lengkap Git & GitHub untuk tim yang berisi:
@@ -34,35 +30,40 @@ Panduan lengkap Git & GitHub untuk tim yang berisi:
 - Step-by-step commit & push
 - Best practices
 - Troubleshooting
-- Template email ke dosen
+- Format commit message
 
 ### 4. screenshots/
 Folder yang berisi screenshot aplikasi:
-- Screenshot per screen (11 screens)
-- Screenshot dialogs/alerts
+- 11 screenshots (01_splash.png - 11_edit_profile.png)
+- Screenshot per module (Auth, Home, Profile)
 - Dokumentasi visual fitur
+
+---
 
 ## Cara Menggunakan Dokumentasi
 
 ### Untuk Anggota Tim
 1. Baca **DOKUMENTASI_PROJECT.md** untuk memahami scope project
-2. Lihat **LAPORAN_PROGRESS.md** untuk tracking progress
-3. Gunakan **PANDUAN_GITHUB.md** saat commit & push
+2. Lihat **LAPORAN_PROGRESS.md** untuk melihat kontribusi masing-masing
+3. Gunakan **PANDUAN_GITHUB.md** sebagai referensi Git workflow
 
 ### Untuk Dosen/Reviewer
 1. **DOKUMENTASI_PROJECT.md** - Overview lengkap project
 2. **LAPORAN_PROGRESS.md** - Progress dan kontribusi tiap anggota
 3. **screenshots/** - Visualisasi hasil akhir aplikasi
 
-## Update Dokumentasi
+---
 
-Dokumentasi akan diupdate secara berkala sesuai progress development:
-- **LAPORAN_PROGRESS.md** - Update tiap minggu
-- **screenshots/** - Upload setelah development selesai
-- **DOKUMENTASI_PROJECT.md** - Update jika ada perubahan scope
+## Status Dokumentasi
+
+- [X] Dokumentasi project lengkap
+- [X] Laporan progress per anggota
+- [X] Panduan GitHub workflow
+- [X] Screenshot 11 screens
+- [] Assessment 2 dan akan dipresentasikan
 
 ---
 
-**Last Updated:** 11 Desember 2025  
-**Kelompok:** 1 - Internship Finder  
-**Mata Kuliah:** Dasar Pemrograman Perangkat Bergerak
+**Project:** Internship Finder - Kelompok 1  
+**Assessment 2 Status:** [] Proses & Akan di presentasikan (11 Des 2025)  
+**Last Updated:** 11 Desember 2025
