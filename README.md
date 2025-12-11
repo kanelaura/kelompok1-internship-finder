@@ -47,10 +47,10 @@ Aplikasi mobile untuk mencari dan melamar lowongan magang dengan mudah dan cepat
 
 | Requirement | Minimum | Implemented | Status |
 |-------------|---------|-------------|--------|
-| Screens per anggota | 3 | 3-4 per anggota (Total: 11) | ✅ |
-| Alert per anggota | 1 | 4-5 per anggota (Total: 13) | ✅ |
-| Widget & Layout | Required | Column, Row, Card, ListView, TextField, Button, dll | ✅ |
-| Navigasi | Required | push, pop, pushReplacement, pushAndRemoveUntil | ✅ |
+| Screens per anggota | 3 | 3-4 per anggota (Total: 11) | Completed |
+| Alert per anggota | 1 | 4-5 per anggota (Total: 13) | Completed |
+| Widget & Layout | Required | Column, Row, Card, ListView, TextField, Button, dll | Completed |
+| Navigasi | Required | push, pop, pushReplacement, pushAndRemoveUntil | Completed |
 
 **Summary:** Semua requirement Assessment 2 terpenuhi dengan melebihi target minimum.
 
