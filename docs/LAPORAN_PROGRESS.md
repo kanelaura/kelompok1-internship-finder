@@ -7,7 +7,7 @@
 
 | **Role** | **AUTHENTICATION & SPLASH** |
 | :---- | :---- |
-| **PIC** | Hidayat Nurwahid (NIM) |
+| **PIC** | Hidayat Nurwahid (607012400045) |
 | **Penjelasan Singkat** | Bertanggung jawab atas sistem autentikasi aplikasi. Akan membuat Splash Screen, Login Screen, dan Register Screen sebagai gerbang utama aplikasi. |
 | **Target Assessment 2** | 3 halaman utama (Splash, Login, Register) dengan 4 jenis dialog (Login Error, Forgot Password, Register Validation, Register Success). Semua dilengkapi validasi form dan navigasi. |
 | **Screenshot** | *[Akan diisi setelah development]*<br><br>**Halaman:**<br>1. Splash Screen<br>2. Login Screen<br>3. Register Screen<br><br>**Alert:**<br>- Error Dialog (Login gagal)<br>- Info Dialog (Lupa password)<br>- Validation Dialog (Register)<br>- Success Dialog (Register berhasil) |
@@ -20,7 +20,7 @@
 
 | **Role** | **HOME & INTERNSHIP MANAGEMENT** |
 | :---- | :---- |
-| **PIC** | Arsyad Defira Maulana (NIM) |
+| **PIC** | Arsyad Defira Maulana (607012400094) |
 | **Penjelasan Singkat** | Bertanggung jawab atas halaman utama aplikasi. Akan membuat Main Screen dengan Bottom Navigation, Home Screen dengan list lowongan, Search Screen, dan Detail Screen. |
 | **Target Assessment 2** | 4 halaman utama (Main, Home, Search, Detail) dengan fitur filter Bottom Sheet. Data lowongan menggunakan dummy data dalam List<Map>. |
 | **Screenshot** | *[Akan diisi setelah development]*<br><br>**Halaman:**<br>1. Main Screen (Bottom Nav)<br>2. Home Screen (List)<br>3. Search Screen<br>4. Detail Screen<br><br>**Fitur:**<br>- Bottom Navigation<br>- List lowongan<br>- Search & Filter<br>- Bookmark<br>- Notification |
@@ -33,7 +33,7 @@
 
 | **Role** | **PROFILE & APPLICATION MANAGEMENT** |
 | :---- | :---- |
-| **PIC** | M Dzikra Hafidz Fauzan (NIM) |
+| **PIC** | M Dzikra Hafidz Fauzan (607012400050) |
 | **Penjelasan Singkat** | Bertanggung jawab atas manajemen profil dan aplikasi lamaran. Akan membuat Application Form, Applications History, Profile Screen, dan Edit Profile. |
 | **Target Assessment 2** | 4 halaman utama (Form, History, Profile, Edit) dengan 5 jenis dialog untuk konfirmasi dan feedback. Status badge color-coded. |
 | **Screenshot** | *[Akan diisi setelah development]*<br><br>**Halaman:**<br>1. Application Form<br>2. Applications History<br>3. Profile Screen<br>4. Edit Profile<br><br>**Fitur:**<br>- Form validasi<br>- Status badge<br>- Menu profile<br>- Logout |
