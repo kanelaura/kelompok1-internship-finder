@@ -192,7 +192,7 @@ Timeline akan ditentukan setelah Assessment 2.
 |---------|-------|--------|
 | Hidayat Nurwahid | paslimkimochi@gmail.com | [@kanelaura](https://github.com/kanelaura) |
 | Arsyad Defira Maulana | inback210@gmail.com | [@acaik](https://github.com/acaik) |
-| M Dzikra Hafidz Fauzan | belum isi | [belum isi) |
+| M Dzikra Hafidz Fauzan | dzikraaafznnn@gmail.com | [@dzikra-arch](https://github.com/dzikra-arch) |
 
 ---
 
