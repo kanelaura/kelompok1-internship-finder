@@ -4,7 +4,7 @@ Aplikasi mobile untuk mencari dan melamar lowongan magang dengan mudah dan cepat
 
 **Mata Kuliah:** Dasar Pemrograman Perangkat Bergerak (DPPB)  
 **Universitas:** Telkom University  
-**Semester:** 3 / Tahun Akademik 2024/2025  
+**Semester:** 3 / Tahun Akademik 2025/2026  
 **Assessment:** Assessment 2 - Layout, Widget & Navigasi
 
 ---
@@ -159,7 +159,7 @@ docs/
 | 5 Des - 10 Des | Development & Testing | Completed |
 | 11 Des | **Presentasi Assessment 2** | Progress |
 
-**Total Duration:** 14 hari (28 Nov - 11 Des 2024)  
+**Total Duration:** 14 hari (28 Nov - 11 Des 2025)  
 **Status:** Akan melakukan presentasi Assessment 2 
 
 ---
