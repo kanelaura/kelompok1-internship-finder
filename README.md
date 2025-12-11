@@ -207,4 +207,5 @@ Timeline akan ditentukan setelah Assessment 2.
 
 Academic Project - Telkom University © 2025
 
+sahdashdashjdasdlajsdasjddasdhakj,scnxcns
 abefubeuksbfKSBfukabesiufbkjebfjkabekfbasekufbseukbfkskuebfsef
