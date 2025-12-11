@@ -1,5 +1,6 @@
 # Kelompok 1 Internship Finder - Mobile App
 
+
 Aplikasi mobile untuk mencari dan melamar lowongan magang dengan mudah dan cepat.
 
 **Tugas Besar:** Dasar Pemrograman Perangkat Bergerak (DPPB)  
@@ -12,9 +13,9 @@ Aplikasi mobile untuk mencari dan melamar lowongan magang dengan mudah dan cepat
 
 | Nama | NIM | Role | File |
 |------|-----|------|------|
-| **Hidayat Nurwahid** | 1103213xxx | Authentication & Splash | [`lib/hidayat_auth.dart`](lib/hidayat_auth.dart) |
-| **Arsyad Defira Maulana** | 1103213xxx | Home & Internship Management | [`lib/arsyad-home.dart`](lib/arsyad-home.dart) |
-| **M Dzikra Hafidz Fauzan** | 1103213xxx | Profile & Application Management | [`lib/dzikra-profile.dart`](lib/dzikra-profile.dart) |
+| **Hidayat Nurwahid** | 607012400045 | Authentication & Splash | [`lib/hidayat_auth.dart`](lib/hidayat_auth.dart) |
+| **Arsyad Defira Maulana** | 607012400094 | Home & Internship Management | [`lib/arsyad-home.dart`](lib/arsyad-home.dart) |
+| **M Dzikra Hafidz Fauzan** | 607012400050 | Profile & Application Management | [`lib/dzikra-profile.dart`](lib/dzikra-profile.dart) |
 
 ---
 
@@ -319,7 +320,7 @@ Project ini dibuat untuk keperluan akademik dan pembelajaran.
 
 | Anggota | Email | GitHub |
 |---------|-------|--------|
-| Hidayat Nurwahid | [email] | [@username] |
+| Hidayat Nurwahid | [paslimkimochi@gmail.com] | [@kanelaura] |
 | Arsyad Defira Maulana | [email] | [@username] |
 | M Dzikra Hafidz Fauzan | [email] | [@username] |
 
@@ -331,7 +332,7 @@ Project ini dibuat untuk keperluan akademik dan pembelajaran.
 
 ## Acknowledgments
 
-- Dosen Pengampu: [Nama Dosen]
+- Dosen Pengampu: [Lukmanul Hakim Firdaus]
 - Mata Kuliah: Dasar Pemrograman Perangkat Bergerak
 - Institusi: Telkom University
 - Semester: 3 / Tahun Akademik 2025/2026
